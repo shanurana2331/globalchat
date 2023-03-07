@@ -6,8 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Global Chat</title>
     <style>
-       
-       .background{ color:#f0f8ff ;}
+       #livechat{background-color: lightslategray; width: 29.2%; height: 100%; float:left; border-style:groove;}
+       #personalchat{background-color: rgb(48, 84, 106); width:70%; height: 100%; float:right; border-style:groove}
     </style>
 
 </head>
@@ -15,12 +15,13 @@
     <h1 style="text-align: center;color: lightcyan; text-shadow:  0 0 5px #d6601c, 0 0 10px #d6601c, 0 0 20px #d6601c, 0 0 40px #d6601c;">Global Chat</h1>
     <div style="background-color: darkgreen ; width: 100%; height: 620px;">  
   
-        <div style="background-color: lightslategray; width: 29.7%; height: 100%; float:left;">  
-This is the first division to have a vertical alignment.  
+        <div id="livechat">  
+<div style="text-align: center; text-shadow:  0 0 5px #320ed2, 0 0 10px #320ed2 "> Live Chat </div>
         </div>  
   
-        <div style="background-color: rgb(48, 84, 106); width:70%; height: 100%; float:right;">  
-  This is the second division to have a vertical alignment.  
+        <div id="personalchat">  
+<div style="text-align: center; color: aliceblue; text-shadow:  0 0 5px #320ed2, 0 0 10px #320ed2"> Personal Chat </div>
+
         </div>  
     </div>  
 </html>
